@@ -19,7 +19,10 @@ allprojects {
 }
 
 增加
+
 \app\build.gradle
+
 dependencies {
     implementation 'com.boqun:mobisdk:x.x.x'
 }
+
