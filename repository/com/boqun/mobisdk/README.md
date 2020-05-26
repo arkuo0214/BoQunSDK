@@ -1,3 +1,3 @@
-# ¨Ï¥Î»¡©ú:
+# ä½¿ç”¨èªªæ˜Ž:
 implementation 'com.boqun:mobisdk:x.x.x'
 
