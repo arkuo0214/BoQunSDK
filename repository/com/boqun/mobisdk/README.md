@@ -35,3 +35,4 @@ dependencies {
 添加 以下内容并保存即可访问
 199.232.68.133 raw.githubusercontent.com
 
+API使用詳情請參考MoBiSDKDemo.zip
