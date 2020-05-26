@@ -35,4 +35,4 @@ dependencies {
 添加 以下内容并保存即可访问
 199.232.68.133 raw.githubusercontent.com
 
-API使用詳情請參考MoBiSDKDemo.zip
+API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/MoBiSDKDemo.zip
