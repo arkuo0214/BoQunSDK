@@ -28,6 +28,7 @@
 # 接口及方法使用說明:
 ## **(API使用詳情請參考SerialPortDemo.zip)**
 
+基本
 
 
 
@@ -55,3 +56,28 @@
     
     //停止 
     BoQunBike.stop();
+
+工廠設定
+
+
+    //初始化工廠設定
+    BoQunBike.getFactory().init(FactoryDataCallback());
+    //退出工廠設定
+    BoQunBike.getFactory().exit();
+    //保存輪徑
+    BoQunBike.getFactory().saveWheelDiameter(wheelDiameter);
+    //設定馬達行程
+    BoQunBike.getFactory().setMotorStrokeLoad(motorStrokeLoadValue);
+    //保存馬達行程
+    BoQunBike.getFactory().saveMotorStroke(motorStrokeLoadValue, motorStrokeAdcValue);
+    //設定揚升行程
+    BoQunBike.getFactory().setInclineStrokeLoad(inclineStrokeLoadValue);
+    //保存揚升行程
+    BoQunBike.getFactory().saveInclineStroke(inclineStrokeLoadValue, inclineStrokeAdcValue);
+    //開始自動校正
+    BoQunBike.getFactory().startAutoCorrection(OnAutoCorrectListener());
+    //強制停止自動校正
+    BoQunBike.getFactory().stopAutoCorrection();
+
+
+
