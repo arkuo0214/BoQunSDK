@@ -1,4 +1,4 @@
-## 使用說明:
+# 使用說明:
 增加
 \build.gradle
 
@@ -25,8 +25,10 @@
 
 添加 以下内容并保存即可访问 199.232.68.133 raw.githubusercontent.com
 
+
 ## 接口及方法使用說明:
-### **(API使用詳情請參考SerialPortDemo.zip)**
+<font size="5"><font color="#dd0000">**(API使用詳情請參考SerialPortDemo.zip)**</font><br /></font><br />
+
 
 初始化 BoQunBike.init(this, callback);
 
