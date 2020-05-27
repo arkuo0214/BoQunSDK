@@ -35,4 +35,16 @@ dependencies {
 添加 以下内容并保存即可访问
 199.232.68.133 raw.githubusercontent.com
 
-API使用詳情請參考SerialPortDemo.zip
+
+
+接口及方法使用說明:(API使用詳情請參考SerialPortDemo.zip)
+
+初始化
+BoQunBike.init(this, callback);
+
+啟動
+BoQunBike.start();
+
+暫停
+BoQunBike.pause();
+
