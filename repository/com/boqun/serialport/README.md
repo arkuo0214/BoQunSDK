@@ -13,7 +13,6 @@
     
 
 增加
-
 \app\build.gradle
 
 
@@ -34,4 +33,20 @@
 
 啟動 BoQunBike.start();
 
+設定阻力 
+BoQunBike.setLoadValue(currentLoad);
+延遲設定阻力 
+BoQunBike.setLoadValue(currentIncline, 50);
+
+設定揚升 
+BoQunBike.setInclineValue(currentIncline);
+延遲設定揚升 
+BoQunBike.setInclineValue(currentIncline, 100);
+
+設定風扇 
+BoQunBike.setFan(currentFanLevel);
+
 暫停 BoQunBike.pause();
+
+停止 BoQunBike.stop();
+
