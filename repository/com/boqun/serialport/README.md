@@ -26,7 +26,7 @@
   
   
 # 接口及方法使用說明:  
-## **(API使用詳情請參考SerialPortDemo.zip)**  
+## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
   
 基本  
   
