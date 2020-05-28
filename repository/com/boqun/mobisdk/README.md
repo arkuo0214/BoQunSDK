@@ -42,7 +42,7 @@
     //延遲傳輸資料(自動生成"偶检验和")
     BoQunBike.sendPortMessageDelay("AB010000000000",500);
     
-    //資料回掉函數
+    //資料回調函數
     PortDataCallback();
     	//運動數據
     	onSportData(PortDataBean bean)
