@@ -34,6 +34,6 @@
     OnBikeDataListener();
     	//初始化成功
     	public void onInitializationSuccess(String s)
-        //運動數據
-        public void onDataChange(int i, int i1, int i2)
+    	//運動數據
+    	public void onDataChange(int i, int i1, int i2)
         
