@@ -26,7 +26,7 @@
   
   
 # 接口及方法使用說明:  
-## **(API使用詳情請參考XQPortSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/xqportsdk/XQPortSDKDemo.zip)**
+## **(API使用詳情請參考XQPortSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/xqportsdk/XQPortSDKDemo.zip)**
     //初始化
     XQBike.init(this, new OnBikeDataListener());
     
