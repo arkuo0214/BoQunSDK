@@ -31,8 +31,8 @@
     XQBike.init(this, new OnBikeDataListener());
     
     //資料回調函數
-    OnBikeDataListener();
-    
+    OnBikeDataListener() {
+	
     	//初始化成功
     	//s = 設備編碼
     	public void onInitializationSuccess(String s)
@@ -42,5 +42,5 @@
 		//i1 = rpm 單車輪轉速
 		//i2 = level 單車阻力
     	public void onDataChange(int i, int i1, int i2)
-        
+	}
 
