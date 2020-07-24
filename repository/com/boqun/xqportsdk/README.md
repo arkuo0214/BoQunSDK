@@ -1,5 +1,5 @@
-# 使用說明:  
-增加  
+# Operation guide:  
+Add  
 \build.gradle  
 
 
@@ -12,7 +12,7 @@
     }
     
 
-增加  
+Add  
 \app\build.gradle  
 
 
@@ -20,27 +20,25 @@
     	implementation 'com.boqun:xqportsdk:1.0.0'
     }
     
-如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
-
-添加 以下内容并保存即可访问 199.232.68.133 raw.githubusercontent.com  
+If appear “unable to resolve dependency for app@......”, please check have you can access “https://raw.githubusercontent.com”, if you cannot access, please find the hosts document in C:\Windows\System32\drivers\etc , then add “199.232.68.133 raw.githubusercontent.com” and save.
   
   
-# 接口及方法使用說明:  
-## **(API使用詳情請參考XQPortSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/xqportsdk/XQPortSDKDemo.zip)**
-    //初始化
+# Operation guide:  
+## **(API operation guide refer XQPortSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/xqportsdk/XQPortSDKDemo.zip)**
+    //initialize
     XQBike.init(this, new OnBikeDataListener());
     
-    //資料回調函數
+    //Data callback
     OnBikeDataListener() {
 	
-    	//初始化成功
-    	//s = 設備編碼
+    	//initialize success
+    	//s = Equipment number
     	public void onInitializationSuccess(String s)
 	
-    	//運動數據
-		//i = watt 單車功率
-		//i1 = rpm 單車輪轉速
-		//i2 = level 單車阻力
+    	//Workout data
+		//i = watt : Bike Power
+		//i1 = rpm : Bike RPM(Revolutions Per minute)
+		//i2 = level : Bike Resistance
     	public void onDataChange(int i, int i1, int i2)
 	}
 
