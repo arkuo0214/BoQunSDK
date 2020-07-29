@@ -26,7 +26,7 @@
   
   
 # 接口及方法使用說明:  
-## **(API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/MoBiSDKDemo.zip)**
+## **(API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/mobisdk/MoBiSDKDemo.zip)**
     跑步機:
     //初始化(初始化完成後會自動開啟串口)
     MoBiTreadmill.init(context, callback);
