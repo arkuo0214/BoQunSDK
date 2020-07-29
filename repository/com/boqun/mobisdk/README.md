@@ -42,8 +42,8 @@
     
     //資料回調函數
     OnTreadmillDataCallback();
-    	//按鍵
-    	onExternalKeyEvent(int action, int keyCode)
+        //按鍵
+        onExternalKeyEvent(int action, int keyCode)
         //狀態及心跳
         onStateChange(boolean isRefueling, boolean isLackOil, boolean isECOStatus, boolean isFactoryMode, int heartbeat)
         //錯誤碼
