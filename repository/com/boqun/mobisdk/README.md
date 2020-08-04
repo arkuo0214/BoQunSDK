@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:mobisdk:1.0.7'
+    	implementation 'com.boqun:mobisdk:1.0.8'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
@@ -27,6 +27,17 @@
   
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/mobisdk/MoBiSDKDemo.zip)**
+    裝置檢查:
+    //裝置檢查開始
+    MoBiDeviceCheck.init(mContext, new OnDeviceCheckDataCallback());
+    
+    //裝置檢查資料回調
+    OnDeviceCheckDataCallback();
+        //成功
+        onCheckSuccess(int device)
+        //失敗
+        onCheckFailure()
+    
     跑步機:
     //初始化(初始化完成後會自動開啟串口)
     MoBiTreadmill.init(context, callback);
