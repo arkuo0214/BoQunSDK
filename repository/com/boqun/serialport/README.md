@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:serialport:1.0.0'
+    	implementation 'com.boqun:serialport:1.0.3'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
@@ -26,7 +26,7 @@
   
   
 # 接口及方法使用說明:  
-## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
+## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
   
 基本  
   
