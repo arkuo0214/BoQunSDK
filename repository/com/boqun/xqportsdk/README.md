@@ -17,7 +17,7 @@ Add
 
 
     dependencies {
-    	implementation 'com.boqun:xqportsdk:1.0.0'
+    	implementation 'com.boqun:xqportsdk:1.0.1'
     }
     
 If appear “unable to resolve dependency for app@......”, please check have you can access “https://raw.githubusercontent.com”, if you cannot access, please find the hosts document in C:\Windows\System32\drivers\etc , then add “199.232.68.133 raw.githubusercontent.com” and save.
