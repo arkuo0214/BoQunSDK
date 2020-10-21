@@ -25,9 +25,11 @@
 添加 以下内容并保存即可访问 199.232.68.133 raw.githubusercontent.com  
   
   
-![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/images/demo.png)
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/mobisdk/MoBiSDKDemo.zip)**
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/images/demo.png)
+
+
             MoBiDevice.init(mContext, new OnDeviceDataCallback() {
                 @Override
                 public void onInitData(InitDataBean initData) {
