@@ -27,7 +27,7 @@
   
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考MoBiSDKDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/mobisdk/MoBiSDKDemo_v1.1.2_KJ29R.zip)**
-![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/images/demo.png)
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/mobisdk/images/demo.jpg)
 MoBiSDKDemo Apk : https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/mobisdk/MoBiSDKDemo-1.1.2.apk
 
             MoBiDevice.init(mContext, new OnDeviceDataCallback() {
