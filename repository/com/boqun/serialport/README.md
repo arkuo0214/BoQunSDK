@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:serialport:1.0.4'
+    	implementation 'com.boqun:serialport:1.0.5'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
@@ -57,7 +57,7 @@
     //停止 
     BoQunBike.stop();
     
-    //屏幕開關設定喚醒和睡眠
+    //屏幕開關設定喚醒和睡眠(可參考SerialPortDemo.zip範例)
     ScreenBroadcast.getInstance().register(this).listener(new ScreenBroadcast.Listener() {
         @Override
         public void onScreenOn() {
