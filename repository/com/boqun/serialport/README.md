@@ -56,6 +56,21 @@
     
     //停止 
     BoQunBike.stop();
+    
+    //屏幕開關設定喚醒和睡眠
+    ScreenBroadcast.getInstance().register(this).listener(new ScreenBroadcast.Listener() {
+        @Override
+        public void onScreenOn() {
+            Log.e(TAG, "onScreenOn");
+            BoQunBike.setSleepState(SleepState.WAKE);
+        }
+
+        @Override
+        public void onScreenOff() {
+            Log.e(TAG, "onScreenOff");
+            BoQunBike.setSleepState(SleepState.SLEEP);
+        }
+    });
 
 工廠設定  
 
