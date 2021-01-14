@@ -27,9 +27,10 @@
   
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
-https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1.jpg
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1.jpg)
   
 單車系列(基本)  
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike.jpg)
   
 
 
@@ -74,6 +75,7 @@ https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialpor
     });
 
 單車系列(工廠設定)  
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike2.jpg)
 
 
     //初始化工廠設定
@@ -105,6 +107,7 @@ https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialpor
 	
 
 跑步機系列(基本)  
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill.jpg)
   
 
 
@@ -149,6 +152,7 @@ https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialpor
     });
 
 跑步機系列(工廠設定)  
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill2.jpg)
 
 
     //初始化工廠設定
