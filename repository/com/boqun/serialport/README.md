@@ -160,104 +160,67 @@
     BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.WHEEL_DIAMETER, wheelDiameter);
 
     //揚升VR最高值
-    public void setMaxInclineVRValue(int maxInclineVRValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_INCLINE_VR, maxInclineVRValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_INCLINE_VR, maxInclineVRValue);
 
     //揚升VR最低值
-    public void setMinInclineVRValue(int minInclineVRValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_INCLINE_VR, minInclineVRValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_INCLINE_VR, minInclineVRValue);
 
     //最高速度
-    public void setMaxSpeedValue(int maxSpeedValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_SPEED, maxSpeedValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_SPEED, maxSpeedValue);
 
     //最低速度
-    public void setMinSpeedValue(int minSpeedValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_SPEED, minSpeedValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_SPEED, minSpeedValue);
 
     //速度增量
-    public void setSpeedIncrementValue(int speedIncrementValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.CHILD_SPEED, speedIncrementValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.CHILD_SPEED, speedIncrementValue);
 
     //揚升開關
-    public void setInclineSwitch(int inclineSwitch) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INCLINE_SWITCH, inclineSwitch);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INCLINE_SWITCH, inclineSwitch);
 
     //揚升最大段
-    public void setMaxInclineValue(int maxInclineValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_INCLINE, maxInclineValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MAX_INCLINE, maxInclineValue);
 
     //負揚升 /	揚升最低段
-    public void setMinInclineValue(int minInclineValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_INCLINE, minInclineValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MIN_INCLINE, minInclineValue);
 
     //馬達起始 pulse
-    public void setMotorStartPulse(int motorStartPulse) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MOTOR_INIT_PULSE, motorStartPulse);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MOTOR_INIT_PULSE, motorStartPulse);
 
     //1公里電壓值
-    public void setKm1VoltageValue(int km1VoltageValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.ONE_KM_VOLTAGE, km1VoltageValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.ONE_KM_VOLTAGE, km1VoltageValue);
 
     //10公里電壓值
-    public void setKm10VoltageValue(int km10VoltageValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.TEN_KM_VOLTAGE, km10VoltageValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.TEN_KM_VOLTAGE, km10VoltageValue);
 
     //滾筒皮帶輪/馬達皮帶輪*50=光感配比
-    public void setLightPerceptionRatio(int lightPerceptionRatio) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.LIGHT_PERCEPTION_RATIO, lightPerceptionRatio);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.LIGHT_PERCEPTION_RATIO, lightPerceptionRatio);
 
     //扭力值
-    public void setTorqueValue(int torqueValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.TORQUE, torqueValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.TORQUE, torqueValue);
 
     //線電流值
-    public void setLineCurrentValue(int lineCurrentValue) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.LINE_CURRENT, lineCurrentValue);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.LINE_CURRENT, lineCurrentValue);
 
     //馬達停止模式
-    public void setMotorStopMode(int motorStopMode) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MOTOR_STOP_MODE, motorStopMode);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MOTOR_STOP_MODE, motorStopMode);
 
     //揚升時間
-    public void setInclineTime(int inclineTime) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INCLINE_TIME, inclineTime);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INCLINE_TIME, inclineTime);
 
     //感應方式
-    public void setInductionMethod(int inductionMethod) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INDUCTION_METHOD, inductionMethod);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.INDUCTION_METHOD, inductionMethod);
 
     //公英里切換
-    public void setMileSwitch(int mileSwitch) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MILE_SWITCH, mileSwitch);
-    }
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.MILE_SWITCH, mileSwitch);
 
     //心跳接收優先參數
-    public void setPA_PB(int PA_PB) {
-        BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.PA_PB, PA_PB);
-    }	
+    BoQunTreadmill.getFactory().setFactoryParams(FactoryParams.PA_PB, PA_PB);
+    
     //開始自動校正
-    BoQunBike.getFactory().startAutoCorrection(OnAutoCorrectListener());
+    BoQunTreadmill.getFactory().startAutoCorrection();
 	
     //強制停止自動校正
-    BoQunBike.getFactory().stopAutoCorrection();
+    BoQunTreadmill.getFactory().stopAutoCorrection();
 	
 
 
