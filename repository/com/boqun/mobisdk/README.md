@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:mobisdk:1.0.10'
+    	implementation 'com.boqun:mobisdk:1.0.11'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
