@@ -202,6 +202,7 @@
 
 划船機系列(基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower.png)
+
     /**
      * You need to call this method to initialize when using the rowing machine,
      * otherwise the rowing machine cannot be used
@@ -295,3 +296,99 @@
 
 划船機系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower2.png)
+
+    /**
+     * Enter factory mode
+     * <p>
+     * Query various parameters of factory mode
+     * <p>
+     * Ask the ADC value of the first load
+     *
+     * @param listener {@link OnFactoryListener}
+     */
+    BoQunRowerFactory.getInstance().init(OnFactoryListener listener);
+
+    /**
+     * Query the specified load stroke of the motor
+     *
+     * @param load Specified load
+     * @
+     */
+    BoQunRowerFactory.getInstance().queryMotorLoadStroke(int load);
+
+    /**
+     * Save motor stroke
+     *
+     * @param load
+     * @param adc
+     */
+    BoQunRowerFactory.getInstance().saveMotorStroke(int load, int adc);
+
+    /**
+     * Query various parameters of factory mode
+     */
+    BoQunRowerFactory.getInstance().queryVariousParams();
+
+    /**
+     * Query various parameters of factory mode
+     *
+     * @param delayMillis Delayed query
+     */
+    BoQunRowerFactory.getInstance().queryVariousParams(long delayMillis);
+
+    /**
+     * Use this method to save parameters when modifying down control parameters
+     *
+     * @param diameter
+     * @param magnet
+     * @param distance
+     * @param calories
+     * @param per500mTime
+     */
+    BoQunRowerFactory.getInstance().saveParameters(int diameter, int magnet, int distance, int calories, int per500mTime);
+
+    /**
+     * Use this method to repair the motor when an E 2 error occurs
+     *
+     * @param direction
+     */
+    BoQunRowerFactory.getInstance().setRepairMotorDirection(@Direction int direction);
+
+    /**
+     * Exit factory mode to release resources
+     */
+    BoQunRowerFactory.getInstance().exit();
+
+
+    @IntDef({Status.NORMAL, Status.E2})
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface Status {
+
+        int NORMAL = 0;
+
+        /**
+         * An error occurred in the lower control motor
+         */
+        int E2 = 1;
+
+    }
+
+    @IntDef({Direction.KEEP, Direction.UP, Direction.DOWN})
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface Direction {
+        /**
+         * Stay the same, no need to fix
+         */
+        int KEEP = 0;
+
+        /**
+         * The motor has an error and repair it upwards
+         */
+        int UP = 1;
+
+        /**
+         * Motor error occurs downward repair
+         */
+        int DOWN = 2;
+
+    }
