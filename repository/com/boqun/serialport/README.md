@@ -230,3 +230,7 @@
 
 划船機系列(基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower.png)
+
+
+划船機系列(工廠設定)  
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower2.png)
