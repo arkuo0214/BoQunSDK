@@ -58,7 +58,50 @@
     
     //停止 
     BoQunBike.stop();
-    
+
+    /**
+     * Destroy, close the serial port and clear the listener
+     */
+    BoQunBike.destroy();
+
+熄屏設置:
+
+    private ScreenBroadcast mScreenBroadcast;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        /*****.......****/
+
+        mScreenBroadcast = new ScreenBroadcast();
+        mScreenBroadcast.register(this, new ScreenBroadcast.Listener() {
+            @Override
+            public void onScreenOn() {
+                Log.e(TAG, "onScreenOn");
+                BoQunBike.setSleepState(SleepState.WAKE);
+            }
+
+            @Override
+            public void onScreenOff() {
+                Log.e(TAG, "onScreenOff");
+                BoQunBike.setSleepState(SleepState.SLEEP);
+            }
+        });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+       /****......***/
+
+        if (mScreenBroadcast != null) {
+            mScreenBroadcast.unregister(this);
+            mScreenBroadcast = null;
+        }
+
+    }
 
 單車系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike2.jpg)
@@ -121,7 +164,51 @@
     
     //停止 
     BoQunTreadmill.stop();
-    
+
+    /**
+     * Destroy, close the serial port and clear the listener
+     */
+    BoQunTreadmill.destroy();
+
+熄屏設置:
+
+    private ScreenBroadcast mScreenBroadcast;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        /*****.......****/
+
+        mScreenBroadcast = new ScreenBroadcast();
+        mScreenBroadcast.register(this, new ScreenBroadcast.Listener() {
+            @Override
+            public void onScreenOn() {
+                Log.e(TAG, "onScreenOn");
+                BoQunTreadmill.setWorkMode(TreadmillWorkMode.WAKE);
+            }
+
+            @Override
+            public void onScreenOff() {
+                Log.e(TAG, "onScreenOff");
+                BoQunTreadmill.setWorkMode(TreadmillWorkMode.SLEEP);
+            }
+        });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+       /****......***/
+
+        if (mScreenBroadcast != null) {
+            mScreenBroadcast.unregister(this);
+            mScreenBroadcast = null;
+        }
+
+    }
+
 
 跑步機系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill2.jpg)
@@ -293,6 +380,44 @@
      */
     BoQunRower.getInstance().destroy();
     
+熄屏設置:
+
+    private ScreenBroadcast mScreenBroadcast;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        /*****.......****/
+
+        mScreenBroadcast = new ScreenBroadcast();
+        mScreenBroadcast.register(this, new ScreenBroadcast.Listener() {
+            @Override
+            public void onScreenOn() {
+                Log.e(TAG, "onScreenOn");
+                BoQunRower.getInstance().setWorkMode(RowerWorkMode.WAKE);
+            }
+
+            @Override
+            public void onScreenOff() {
+                Log.e(TAG, "onScreenOff");
+                BoQunRower.getInstance().setWorkMode(RowerWorkMode.SLEEP);
+            }
+        });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+       /****......***/
+
+        if (mScreenBroadcast != null) {
+            mScreenBroadcast.unregister(this);
+            mScreenBroadcast = null;
+        }
+
+    }
 
 划船機系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower2.png)
