@@ -59,20 +59,6 @@
     //停止 
     BoQunBike.stop();
     
-    //屏幕開關設定喚醒和睡眠(可參考SerialPortDemo.zip範例)
-    ScreenBroadcast.getInstance().register(this).listener(new ScreenBroadcast.Listener() {
-        @Override
-        public void onScreenOn() {
-            Log.e(TAG, "onScreenOn");
-            BoQunBike.setSleepState(SleepState.WAKE);
-        }
-
-        @Override
-        public void onScreenOff() {
-            Log.e(TAG, "onScreenOff");
-            BoQunBike.setSleepState(SleepState.SLEEP);
-        }
-    });
 
 單車系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike2.jpg)
@@ -136,20 +122,6 @@
     //停止 
     BoQunTreadmill.stop();
     
-    //屏幕開關設定喚醒和睡眠(可參考SerialPortDemo.zip範例)
-    ScreenBroadcast.getInstance().register(this).listener(new ScreenBroadcast.Listener() {
-        @Override
-        public void onScreenOn() {
-            Log.e(TAG, "onScreenOn");
-            BoQunBike.setSleepState(SleepState.WAKE);
-        }
-
-        @Override
-        public void onScreenOff() {
-            Log.e(TAG, "onScreenOff");
-            BoQunBike.setSleepState(SleepState.SLEEP);
-        }
-    });
 
 跑步機系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill2.jpg)
@@ -230,7 +202,96 @@
 
 划船機系列(基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower.png)
+    /**
+     * You need to call this method to initialize when using the rowing machine,
+     * otherwise the rowing machine cannot be used
+     *
+     * @param context
+     * @param listener {@link OnRowerDataListener}
+     * @throws Exception
+     */
+    BoQunRower.getInstance().init(Context context, OnRowerDataListener listener);
 
+    /**
+     * Notify the start of the control
+     */
+    BoQunRower.getInstance().start();
+
+    /**
+     * Notification of suspension of control
+     */
+    BoQunRower.getInstance().pause();
+
+    /**
+     * Notify the control stop
+     */
+    BoQunRower.getInstance().stop();
+
+    /**
+     * Ask the current load level
+     */
+    BoQunRower.getInstance().queryLoadLevel();
+
+    /**
+     * Delay asking the current resistance level
+     *
+     * @param delayMillis
+     */
+    BoQunRower.getInstance().queryLoadLevelDelay(long delayMillis);
+
+    /**
+     * Set resistance level
+     *
+     * @param level
+     */
+    BoQunRower.getInstance().setLoadLevel(int level);
+
+    /**
+     * Delay in setting the resistance level
+     *
+     * @param level       Load class
+     * @param delayMillis
+     */
+    BoQunRower.getInstance().setLoadLevel(int level, long delayMillis);
+
+    /**
+     * Set fan level
+     *
+     * @param level
+     */
+    BoQunRower.getInstance().setFanLevel(int level);
+
+    /**
+     * Delay in setting the fan level
+     *
+     * @param level
+     * @param delayMillis
+     */
+    BoQunRower.getInstance().setFanLevel(int level, long delayMillis);
+
+    /**
+     * Set down control working mode
+     *
+     * @param mode {@link RowerWorkMode}
+     */
+    BoQunRower.getInstance().setWorkMode(@RowerWorkMode int mode);
+
+
+    /**
+     * Enable serial port reading, the serial port will start to read data
+     */
+    BoQunRower.getInstance().enableRead();
+
+    /**
+     * Disable serial port reading, the serial port will stop reading
+     */
+    BoQunRower.getInstance().disableRead();
+
+    /**
+     * Destroy, close the serial port and clear the listener
+     */
+    BoQunRower.getInstance().destroy();
+    
 
 划船機系列(工廠設定)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower2.png)
