@@ -27,7 +27,7 @@
   
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
-![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1.jpg)
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1.png)
   
 單車系列(基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike.jpg)
