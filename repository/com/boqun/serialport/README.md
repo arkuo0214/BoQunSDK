@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:serialport:1.0.9'
+    	implementation 'com.boqun:serialport:1.1.0'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
