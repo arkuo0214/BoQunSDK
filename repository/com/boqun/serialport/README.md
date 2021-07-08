@@ -29,7 +29,7 @@
 ## **(API使用詳情請參考SerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/serialport/SerialPortDemo.zip)**  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1.png)
   
-單車系列(基本)  
+單車系列 Bike (基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike.jpg)
   
 
@@ -103,7 +103,7 @@
 
     }
 
-單車系列(工廠設定)  
+單車系列 Bike (工廠設定 Factory setting)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_bike2.jpg)
 
 
@@ -135,7 +135,7 @@
     BoQunBike.getFactory().stopAutoCorrection();
 	
 
-跑步機系列(基本)  
+跑步機系列 Treadmill (基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill.jpg)
   
 
@@ -210,7 +210,7 @@
     }
 
 
-跑步機系列(工廠設定)  
+跑步機系列 Treadmill (工廠設定 Factory setting)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_treadmill2.jpg)
 
 
@@ -287,7 +287,7 @@
     BoQunTreadmill.getFactory().stopAutoCorrection();
 	
 
-划船機系列(基本)  
+划船機系列 Rowing machine(基本)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower.png)
 
     /**
@@ -419,7 +419,7 @@
 
     }
 
-划船機系列(工廠設定)  
+划船機系列 Rowing machine (工廠設定 Factory setting)  
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/serialport/images/demo1_rower2.png)
 
     /**
