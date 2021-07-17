@@ -27,7 +27,8 @@
   
 # 接口及方法使用說明:  
 ## **(API使用詳情請參考VrRpmSerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/vrrpmserialport/VrRpmSerialPortDemo_v1.0.1_KK09O.zip)**
-![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/vrrpmserialport/images/demo.jpg)
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo1.png)![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo2.png)
+
 
 AndroidManifest.xml 增加 Application
 
@@ -43,6 +44,10 @@ App.java 增加"RenderApplication.init(this)"初始化
                 RenderApplication.init(this);
             }
         }
+開啟BQSSMainActivity, 並傳送"APPID" (APPID須提供Android Package產生)
 
+        Intent intent = new Intent(this, BQSSMainActivity.class);
+        intent.putExtra("APPID", "66e4f2c3dd5587a329c504d11947e957");
+        this.startActivity(intent);
 
     
