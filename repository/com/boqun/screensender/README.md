@@ -27,7 +27,7 @@
   
 # 使用說明:  
 ## **(使用詳情請參考BQScreenSenderDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/screensender/BQScreenSenderDemo.rar**
-![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo1.png)![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo2.png)
+![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo1.png)          ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo2.png)
 
 
 AndroidManifest.xml 增加 Application
