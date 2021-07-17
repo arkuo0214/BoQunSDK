@@ -25,8 +25,8 @@
 添加 以下内容并保存即可访问 199.232.68.133 raw.githubusercontent.com 
   
   
-# 接口及方法使用說明:  
-## **(API使用詳情請參考VrRpmSerialPortDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/vrrpmserialport/VrRpmSerialPortDemo_v1.0.1_KK09O.zip)**
+# 使用說明:  
+## **(使用詳情請參考BQScreenSenderDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/screensender/BQScreenSenderDemo.rar**
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo1.png)![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo2.png)
 
 
