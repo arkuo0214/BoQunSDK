@@ -36,10 +36,10 @@
 
     //初始化 
     BoQunBike.init(this, callback);
-    	public void onSportInitialize(MachineBean bean)
-	public void onSportState(int state)
-	public void onSportData(int rpm, int heartRate)
-	public void onExternalKeyEvent(int keyCode)
+    		public void onSportInitialize(MachineBean bean)
+		public void onSportState(int state)
+		public void onSportData(int rpm, int heartRate)
+		public void onExternalKeyEvent(int keyCode)
     
     //啟動 
     BoQunBike.start();
