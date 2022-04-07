@@ -27,7 +27,7 @@ If unable to resolve dependency for app@...... See if you can access https://raw
 Add the following and save to access 199.232.68.133 raw.githubusercontent.com
 
 # 詳細使用說明:
-https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
+https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/zh-CN/
 
 # Detailed instructions for use: 
-https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
+https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/en/
