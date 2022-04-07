@@ -1,0 +1,35 @@
+{
+  "title": "iConsole Sdk Manual",
+  "author": "Felix",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins": [
+    "expandable-chapters-small",
+    "tbfed-pagefooter",
+    "github",
+    "back-to-top-button",
+    "chapter-fold",
+    "toolbar"
+  ],
+  "pluginsConfig": {
+    "toolbar": {
+      "buttons": [
+        {
+          "label": "中文",
+          "icon": null,
+          "url": "https://github.com/",
+          "position": "left"
+        }
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy <a href='http://www.cnboqun.com' target='_blank'>柏群电子科技有限公司</a> 2021",
+      "modify_label": "",
+      "modify_format": "YYYY-MM-DD HH:mm"
+    },
+    "github": {
+      "url": "https://github.com/arkuo0214/BoQunSDK"
+    }
+  }
+}
