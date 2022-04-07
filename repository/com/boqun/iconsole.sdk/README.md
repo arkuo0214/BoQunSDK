@@ -26,6 +26,6 @@
 If unable to resolve dependency for app@...... See if you can access https://raw.githubusercontent.com If you can't find the hosts file in the C:\Windows\System32\drivers\etc path
 Add the following and save to access 199.232.68.133 raw.githubusercontent.com
 
-詳細說明:https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
+詳細使用說明:https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
 
-Detailed instructions: https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
+Detailed instructions for use: https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/
