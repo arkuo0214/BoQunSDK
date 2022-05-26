@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.usb",
+    "module": "mt3200.bike",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mt3200.bike-1.0.0.aar",
+          "url": "mt3200.bike-1.0.0.aar",
+          "size": 53057,
+          "sha512": "57ce70cbb2cc456e5f8f3ccaac15e9781155abcefa1e9314f7ee115693b7abae6dbf983c55cd42f85d17064921b59f49e7fe401a67914cb3aaef23cca7b8a654",
+          "sha256": "88a126bd178202a142017ad127f844ccbb96154eb851549b1a46843974d8e8c2",
+          "sha1": "5dc6a2af7c6cd8b7dd237aa611288937e745210a",
+          "md5": "be7a356f33cc81f46e2213bb9d7ccf04"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mt3200.bike-1.0.0.aar",
+          "url": "mt3200.bike-1.0.0.aar",
+          "size": 53057,
+          "sha512": "57ce70cbb2cc456e5f8f3ccaac15e9781155abcefa1e9314f7ee115693b7abae6dbf983c55cd42f85d17064921b59f49e7fe401a67914cb3aaef23cca7b8a654",
+          "sha256": "88a126bd178202a142017ad127f844ccbb96154eb851549b1a46843974d8e8c2",
+          "sha1": "5dc6a2af7c6cd8b7dd237aa611288937e745210a",
+          "md5": "be7a356f33cc81f46e2213bb9d7ccf04"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "mt3200.bike-1.0.0-sources.jar",
+          "url": "mt3200.bike-1.0.0-sources.jar",
+          "size": 25776,
+          "sha512": "637e89f558bbc40644e33803ce400a8120a079b5df0a15321e2d4853e1770bc6d0701cded44a008d4f6beb6724b38b18518de33ad3b832324ab27cb393835078",
+          "sha256": "8223276c5afb34e1440de41f195529a2500a2ab142b326c26ba42713fe1bcc8e",
+          "sha1": "b4ee57c9caad353e0e5e3cca3652eb9bae36904c",
+          "md5": "648bae7f635b05367ff71e5e2aa8b901"
+        }
+      ]
+    }
+  ]
+}
