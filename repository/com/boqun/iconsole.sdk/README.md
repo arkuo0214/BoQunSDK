@@ -1,4 +1,4 @@
-[CN]:https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/iconsole.sdk/README.md
+[CN]:https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/iconsole.sdk/README_cn.md
 # English document: (EN/[中文][CN])
 https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/en/
 <br/>
