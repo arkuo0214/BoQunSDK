@@ -2,10 +2,6 @@
 # 中文文檔:([EN]/中文)
 https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/zh-CN/
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 # 使用說明(Instructions for use):  
 增加(Increase)  
 \build.gradle  
