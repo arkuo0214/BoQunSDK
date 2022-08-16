@@ -3,7 +3,7 @@
 https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/zh-CN/
 <br/>
 # 使用說明(Instructions for use):  
-增加(Increase)  
+增加(Add)  
 \build.gradle  
 
 
@@ -16,7 +16,7 @@ https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/zh-CN/
     }
     
 
-增加(Increase)    
+增加(Add)    
 \app\build.gradle  
 
 
