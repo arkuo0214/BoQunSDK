@@ -2,10 +2,6 @@
 # English document: (EN/[中文][CN])
 https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/en/
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 # Instructions for use:  
 Increase  
 \build.gradle  
