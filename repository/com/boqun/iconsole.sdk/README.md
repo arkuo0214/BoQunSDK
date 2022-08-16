@@ -3,7 +3,7 @@
 https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/en/
 <br/>
 # Instructions for use:  
-Increase  
+Add  
 \build.gradle  
 
 
@@ -16,7 +16,7 @@ Increase
     }
     
 
-Increase  
+Add  
 \app\build.gradle  
 
 
