@@ -3,7 +3,7 @@
   <groupId>com.boqun</groupId>
   <artifactId>iconsole.sdk</artifactId>
   <versioning>
-    <release>2.1.5</release>
+    <release>2.1.6</release>
     <versions>
       <version>1.0.0.bate</version>
       <version>1.0.0.beta</version>
@@ -27,7 +27,8 @@
       <version>2.1.3.001.beta</version>
       <version>2.1.4</version>
       <version>2.1.5</version>
+      <version>2.1.6</version>
     </versions>
-    <lastUpdated>20220805073803</lastUpdated>
+    <lastUpdated>20220826055634</lastUpdated>
   </versioning>
 </metadata>
