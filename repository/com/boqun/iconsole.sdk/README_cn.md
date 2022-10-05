@@ -21,7 +21,7 @@ https://arkuo0214.github.io/BoQunSDK/iCosnoleSdkManual/zh-CN/
 
 
     dependencies {
-    	implementation 'com.boqun:iconsole.sdk:2.1.6'
+    	implementation 'com.boqun:iconsole.sdk:2.1.7'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
