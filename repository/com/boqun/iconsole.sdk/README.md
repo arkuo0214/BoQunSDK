@@ -21,7 +21,7 @@ Add
 
 
     dependencies {
-    	implementation 'com.boqun:iconsole.sdk:2.1.7'
+    	implementation 'com.boqun:iconsole.sdk:2.1.8'
     }
     
 If unable to resolve dependency for app@...... See if you can access https://raw.githubusercontent.com If you can't find the hosts file in the C:\Windows\System32\drivers\etc path
