@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.nfc",
+    "module": "nfc.rc522",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nfc.rc522-1.0.2.aar",
+          "url": "nfc.rc522-1.0.2.aar",
+          "size": 25702,
+          "sha512": "6c2b5ea4889850c446b010de1122ceb90ed522d07c508b6a401bbd16f63af8ab2ca58ac30403c3e393c9b6d0074a5db30c6dc997bf85ce98fff2649f935e108e",
+          "sha256": "f6929d897c21e93f8574198923048db44501b5d899f8d7deb0a7a311e4d8135d",
+          "sha1": "897e25cae66d3af766119d6961c81cfcd9f6cc8d",
+          "md5": "1d8c1a2b0c1d9e340e71d6545efba2be"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.serialport",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nfc.rc522-1.0.2.aar",
+          "url": "nfc.rc522-1.0.2.aar",
+          "size": 25702,
+          "sha512": "6c2b5ea4889850c446b010de1122ceb90ed522d07c508b6a401bbd16f63af8ab2ca58ac30403c3e393c9b6d0074a5db30c6dc997bf85ce98fff2649f935e108e",
+          "sha256": "f6929d897c21e93f8574198923048db44501b5d899f8d7deb0a7a311e4d8135d",
+          "sha1": "897e25cae66d3af766119d6961c81cfcd9f6cc8d",
+          "md5": "1d8c1a2b0c1d9e340e71d6545efba2be"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nfc.rc522-1.0.2-sources.jar",
+          "url": "nfc.rc522-1.0.2-sources.jar",
+          "size": 9269,
+          "sha512": "57a1ec9aae9f139b6647d937f0c5cdaeca591c53b4d88396b59b9724628a8645185243a4ef760e6240f369856f4b46e6307f54333df19612b38a2c97716ccc51",
+          "sha256": "9ace3d332025b63d86ad0c05a31cc042182e0cd90fa285b2829ee5f60a9b7eb9",
+          "sha1": "98a9950ff235278c2e753916f3dd8a7b5ea63864",
+          "md5": "3ebff57e7095f76653abf47fd26f881e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nfc.rc522-1.0.2-javadoc.jar",
+          "url": "nfc.rc522-1.0.2-javadoc.jar",
+          "size": 331079,
+          "sha512": "48a271720af9b85394174065c115f2767f967cfec370e52939092230b4fe8ea3e2fe8bf192bd689d2cfc3cf4fd8d8a104109424cc563af9eee76a58e53714c64",
+          "sha256": "3fe365a3de94e53cbc05db2e7e8f6267cbaad83a8d831a86e35bd8d5ad6547c5",
+          "sha1": "bf17c19ad21823bc64e81fdf25b7adfb5b747599",
+          "md5": "b3935e689a40ef0aa0283b38deb78efc"
+        }
+      ]
+    }
+  ]
+}

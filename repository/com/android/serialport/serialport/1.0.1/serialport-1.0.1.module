@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.serialport",
+    "module": "serialport",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialport-1.0.1.aar",
+          "url": "serialport-1.0.1.aar",
+          "size": 44404,
+          "sha512": "d3a3c516816e61591fdfdf38afbef97f3a70be1c8eac1a0d7492aa456677d93ca6769aa3ca9490b88ae7cebbd022f6bcaae361390ec996d113169a48520ca76a",
+          "sha256": "6da824c73571744bcf75b17f85f06b00341ea533ac2eec7d8cb668927a4f970b",
+          "sha1": "17aea5c0d39e0fe2938c6252c41bb3aadaba3cc8",
+          "md5": "72a6418cc7adcd0b4ddbf4b3cb4bedf0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "serialport-1.0.1.aar",
+          "url": "serialport-1.0.1.aar",
+          "size": 44404,
+          "sha512": "d3a3c516816e61591fdfdf38afbef97f3a70be1c8eac1a0d7492aa456677d93ca6769aa3ca9490b88ae7cebbd022f6bcaae361390ec996d113169a48520ca76a",
+          "sha256": "6da824c73571744bcf75b17f85f06b00341ea533ac2eec7d8cb668927a4f970b",
+          "sha1": "17aea5c0d39e0fe2938c6252c41bb3aadaba3cc8",
+          "md5": "72a6418cc7adcd0b4ddbf4b3cb4bedf0"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "serialport-1.0.1-sources.jar",
+          "url": "serialport-1.0.1-sources.jar",
+          "size": 18285,
+          "sha512": "8e93a8f735bc7122e295aaafa61403218feedb535b24fa2d6f65978c1734497e6ceb0f494138ef51d3cc2d48155e4c2966caf9a1dfe803f65b96461ca88473e5",
+          "sha256": "1f8d9a9b01dc6b12d3414acd9c3cd3062608840433ef89f171138328412cd64f",
+          "sha1": "fff32885d576d976f7df7b35490e9bc8563c9b2c",
+          "md5": "d4071b409a7702f3de1e0156d1275d29"
+        }
+      ]
+    }
+  ]
+}
