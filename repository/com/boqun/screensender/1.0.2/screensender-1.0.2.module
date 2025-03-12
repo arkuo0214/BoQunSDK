@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "screensender",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "screensender-1.0.2.aar",
+          "url": "screensender-1.0.2.aar",
+          "size": 301568,
+          "sha512": "0b0d156d9659dace6d5997304fc5284e126cb922e4ee8236a66bd1c09609c8c643b3fb15993c532feb558ccabaa7353aa6882a8439a5fbd5666a0a6100ec370f",
+          "sha256": "61cb5f7bc3b0630a58cbc9348ff6f5121018c01e894275faa66d40d122e40f58",
+          "sha1": "15c117041f46c103751027580d4352d9931fa546",
+          "md5": "0998b5348ac35bbd513e2ce8f4e9ddff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.8.8"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.8.8"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "net.protyposis.android.mediaplayer",
+          "module": "mediaplayer",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "com.github.jenly1314",
+          "module": "zxing-lite",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.github.jenly1314",
+          "module": "camera-scan",
+          "version": {
+            "requires": "1.3.0"
+          }
+        },
+        {
+          "group": "io.github.scwang90",
+          "module": "refresh-layout-kernel",
+          "version": {
+            "requires": "3.0.0-alpha"
+          }
+        },
+        {
+          "group": "io.github.scwang90",
+          "module": "refresh-header-classics",
+          "version": {
+            "requires": "3.0.0-alpha"
+          }
+        },
+        {
+          "group": "com.guolindev.permissionx",
+          "module": "permissionx",
+          "version": {
+            "requires": "1.8.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screensender-1.0.2.aar",
+          "url": "screensender-1.0.2.aar",
+          "size": 301568,
+          "sha512": "0b0d156d9659dace6d5997304fc5284e126cb922e4ee8236a66bd1c09609c8c643b3fb15993c532feb558ccabaa7353aa6882a8439a5fbd5666a0a6100ec370f",
+          "sha256": "61cb5f7bc3b0630a58cbc9348ff6f5121018c01e894275faa66d40d122e40f58",
+          "sha1": "15c117041f46c103751027580d4352d9931fa546",
+          "md5": "0998b5348ac35bbd513e2ce8f4e9ddff"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "screensender-1.0.2-sources.jar",
+          "url": "screensender-1.0.2-sources.jar",
+          "size": 100682,
+          "sha512": "b5af7f1ce259ef47d835fa5541c04a8bdcc5d7334dcc3aedeb1a8e783f6da7ce786bf9a93d33219d1cad9a3befa60692e54b22c0229bf2ea913c1d78a421138f",
+          "sha256": "7e232d07811192957ae2ff779029f304643b2f14df50b3e4ae5f9ff6283e6a95",
+          "sha1": "c4b3da18e72b6cf16a752fab28d3e9bf21bc4b96",
+          "md5": "b8831e8fd70a18fb8a399cd96db296bd"
+        }
+      ]
+    }
+  ]
+}
