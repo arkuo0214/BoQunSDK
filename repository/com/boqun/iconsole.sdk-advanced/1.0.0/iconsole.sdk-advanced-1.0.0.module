@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "iconsole.sdk-advanced",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.sdk-advanced-1.0.0.aar",
+          "url": "iconsole.sdk-advanced-1.0.0.aar",
+          "size": 22659,
+          "sha512": "1cc558b9fd1b6df9e2f15295393924a487fbfbb3c83495b2ac6bc6c5afa2304dd684713dc04f1ec71ca8f2c20535a0dc8789ff3cc4e529462b3cd6247d8e2887",
+          "sha256": "2b5ba58b871c67f3fbfc266aef4dc293c97d24921ce9cf68bcb49966949dccad",
+          "sha1": "a803d3b176e5bdaee3f3c48340cfc627e2efb68a",
+          "md5": "58fff739335728ff8c361f2fb00b6f3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.boqun",
+          "module": "iconsole.sdk",
+          "version": {
+            "requires": "2.2.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.sdk-advanced-1.0.0.aar",
+          "url": "iconsole.sdk-advanced-1.0.0.aar",
+          "size": 22659,
+          "sha512": "1cc558b9fd1b6df9e2f15295393924a487fbfbb3c83495b2ac6bc6c5afa2304dd684713dc04f1ec71ca8f2c20535a0dc8789ff3cc4e529462b3cd6247d8e2887",
+          "sha256": "2b5ba58b871c67f3fbfc266aef4dc293c97d24921ce9cf68bcb49966949dccad",
+          "sha1": "a803d3b176e5bdaee3f3c48340cfc627e2efb68a",
+          "md5": "58fff739335728ff8c361f2fb00b6f3b"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "iconsole.sdk-advanced-1.0.0-sources.jar",
+          "url": "iconsole.sdk-advanced-1.0.0-sources.jar",
+          "size": 18703,
+          "sha512": "4350dcaae353b2603755958c428915060532508e3ecd408ac8bfc3984363195da6ab24713af8046212e3e9dbdda5cc51201c745b6bb82c2b277d979cd297d21c",
+          "sha256": "b08b633d6062ce4304afe0bc982fda2ae4ea540be6a29203ebc29ef679e9159a",
+          "sha1": "1e2483678d51595feb677b26ef9955bad471973e",
+          "md5": "160bdc7e16a1f512774b107246896626"
+        }
+      ]
+    }
+  ]
+}
