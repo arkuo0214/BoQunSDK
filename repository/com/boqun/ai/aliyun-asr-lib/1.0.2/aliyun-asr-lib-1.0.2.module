@@ -3,7 +3,7 @@
   "component": {
     "group": "com.boqun.ai",
     "module": "aliyun-asr-lib",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,8 +33,8 @@
       ],
       "files": [
         {
-          "name": "aliyun-asr-lib-1.0.1.aar",
-          "url": "aliyun-asr-lib-1.0.1.aar",
+          "name": "aliyun-asr-lib-1.0.2.aar",
+          "url": "aliyun-asr-lib-1.0.2.aar",
           "size": 75288,
           "sha512": "da18ef799749f23b7dee9536ce432f6cc5723d4c457098067c5cc2f775fde6cea2b203230e1eac8d45c3220db415cf2367d2732b92c13b7a3398bef91f0518be",
           "sha256": "ea25d32deefda78d150edafe6b1c2f73f6a8ca4410007aec30611665fea5b61d",
@@ -90,8 +90,8 @@
       ],
       "files": [
         {
-          "name": "aliyun-asr-lib-1.0.1.aar",
-          "url": "aliyun-asr-lib-1.0.1.aar",
+          "name": "aliyun-asr-lib-1.0.2.aar",
+          "url": "aliyun-asr-lib-1.0.2.aar",
           "size": 75288,
           "sha512": "da18ef799749f23b7dee9536ce432f6cc5723d4c457098067c5cc2f775fde6cea2b203230e1eac8d45c3220db415cf2367d2732b92c13b7a3398bef91f0518be",
           "sha256": "ea25d32deefda78d150edafe6b1c2f73f6a8ca4410007aec30611665fea5b61d",
@@ -113,8 +113,8 @@
       },
       "files": [
         {
-          "name": "aliyun-asr-lib-1.0.1-sources.jar",
-          "url": "aliyun-asr-lib-1.0.1-sources.jar",
+          "name": "aliyun-asr-lib-1.0.2-sources.jar",
+          "url": "aliyun-asr-lib-1.0.2-sources.jar",
           "size": 51853,
           "sha512": "184fa2649fc5ec6a243994309c57245ba1a9443b2c9b23c88efcf911b67536625272e30e72a2a682f9df8f1e75925de389e74a26167d79eefda07ce1b21289c4",
           "sha256": "9b609e7edb6275a07ac78739d8919e224a28ec045faa100ec9c9b60b241f2708",
