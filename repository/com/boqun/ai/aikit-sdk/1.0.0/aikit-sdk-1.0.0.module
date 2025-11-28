@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.ai",
+    "module": "aikit-sdk",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aikit-sdk-1.0.0.aar",
+          "url": "aikit-sdk-1.0.0.aar",
+          "size": 7267469,
+          "sha512": "2db5fe8623073d263ad93225e11ec16eec655584e558d668b35f09d7d131cbad41344a674ff0eccd92308a2f54c1715d43162e1728c706c7d00e26711756fe36",
+          "sha256": "e7f7aa812fd4d115f815c14cb0b4bc7aa8c4468ee7d96a821917d51b590cc091",
+          "sha1": "1ffb25cac8fc310b1dfe85f299b133dc29a1bd5b",
+          "md5": "b4413197d8f7bd07eebb811d258b5083"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aikit-sdk-1.0.0.aar",
+          "url": "aikit-sdk-1.0.0.aar",
+          "size": 7267469,
+          "sha512": "2db5fe8623073d263ad93225e11ec16eec655584e558d668b35f09d7d131cbad41344a674ff0eccd92308a2f54c1715d43162e1728c706c7d00e26711756fe36",
+          "sha256": "e7f7aa812fd4d115f815c14cb0b4bc7aa8c4468ee7d96a821917d51b590cc091",
+          "sha1": "1ffb25cac8fc310b1dfe85f299b133dc29a1bd5b",
+          "md5": "b4413197d8f7bd07eebb811d258b5083"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aikit-sdk-1.0.0-sources.jar",
+          "url": "aikit-sdk-1.0.0-sources.jar",
+          "size": 7810,
+          "sha512": "2541e399d5c522d817b454353963c4c632d06ffcec24709904e1c823262d333d7e3dad359322f21a169949e5d9fbf4f3e1f4873c85ed869297eebc8a7bf93eb7",
+          "sha256": "423334a3a1d9014cbc1026e76eba84bc81eca571d14988f5cbdb8e8f052be1de",
+          "sha1": "f970a57307addc5523aad4765937cf2bd8eefcac",
+          "md5": "426fe41ae90e187df1299a125904ecaa"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aikit-sdk-1.0.0-javadoc.jar",
+          "url": "aikit-sdk-1.0.0-javadoc.jar",
+          "size": 300240,
+          "sha512": "2e94ad3fc087a10ec5d6c94b9f5ae5b417b51c3284b696e93bf934ed9e04570ed4a284fd316ecfe6bf9ae0df8829f7061c05dfe722ee04595d7e050fdbf9552e",
+          "sha256": "27823c24effb8ed48708b601f4f79bfd835b64b52ccf52ca48f28f444c3401d8",
+          "sha1": "be5a178cd316e5149446d6fc11e33c59548fa4be",
+          "md5": "48fb4bea5df36997e6ec97348e96f33d"
+        }
+      ]
+    }
+  ]
+}
