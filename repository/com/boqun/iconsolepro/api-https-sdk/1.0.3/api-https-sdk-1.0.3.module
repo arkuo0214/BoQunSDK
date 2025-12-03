@@ -3,7 +3,7 @@
   "component": {
     "group": "com.boqun.iconsolepro",
     "module": "api-https-sdk",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "api-https-sdk-1.0.2.aar",
-          "url": "api-https-sdk-1.0.2.aar",
-          "size": 144107,
-          "sha512": "615ac0d1f033c0865ed824fcdc4001f0d27cd1d8c47385efd18940d9f61ab45abd9c8cd36592d02833fc74979674d18433825798829c37b86ff62bb94047bfb3",
-          "sha256": "29414d27a2d3ab5ec2e487d7bd804c6862ac41efefec7c4fac8ab7aecfcb2ec2",
-          "sha1": "7be3350f1f6d12d046ca07029275385d52f938d8",
-          "md5": "3f6e51b822efd1b10e1efad6a822c42d"
+          "name": "api-https-sdk-1.0.3.aar",
+          "url": "api-https-sdk-1.0.3.aar",
+          "size": 144108,
+          "sha512": "f5da5a6f50cc29ec8f256480eea2711463eb6d1eb6fb457ca5bbdd4733495f317ff1f796b37ff6b96e3799fbbe2514e48a6640e9dbb1741877d93e41afac0bc5",
+          "sha256": "6b4e1b10e09f17e1b13ec327d7bcb7bca4804dbe57bf12c55ec6e40db61a97ea",
+          "sha1": "97ea2bc3417cdd1133f4daa66693fc76f4452615",
+          "md5": "ec4f296593363dc1d63237659b3dda43"
         }
       ]
     },
@@ -118,13 +118,13 @@
       ],
       "files": [
         {
-          "name": "api-https-sdk-1.0.2.aar",
-          "url": "api-https-sdk-1.0.2.aar",
-          "size": 144107,
-          "sha512": "615ac0d1f033c0865ed824fcdc4001f0d27cd1d8c47385efd18940d9f61ab45abd9c8cd36592d02833fc74979674d18433825798829c37b86ff62bb94047bfb3",
-          "sha256": "29414d27a2d3ab5ec2e487d7bd804c6862ac41efefec7c4fac8ab7aecfcb2ec2",
-          "sha1": "7be3350f1f6d12d046ca07029275385d52f938d8",
-          "md5": "3f6e51b822efd1b10e1efad6a822c42d"
+          "name": "api-https-sdk-1.0.3.aar",
+          "url": "api-https-sdk-1.0.3.aar",
+          "size": 144108,
+          "sha512": "f5da5a6f50cc29ec8f256480eea2711463eb6d1eb6fb457ca5bbdd4733495f317ff1f796b37ff6b96e3799fbbe2514e48a6640e9dbb1741877d93e41afac0bc5",
+          "sha256": "6b4e1b10e09f17e1b13ec327d7bcb7bca4804dbe57bf12c55ec6e40db61a97ea",
+          "sha1": "97ea2bc3417cdd1133f4daa66693fc76f4452615",
+          "md5": "ec4f296593363dc1d63237659b3dda43"
         }
       ]
     },
@@ -141,13 +141,13 @@
       },
       "files": [
         {
-          "name": "api-https-sdk-1.0.2-sources.jar",
-          "url": "api-https-sdk-1.0.2-sources.jar",
-          "size": 34085,
-          "sha512": "c2e15d566b7c2676aa60492e45ae87777112650c709f427d9ebf81f1f8e1b2f3f2d88791aac05f3720e921a5b02a991b01a867d8fed6507dfd5803c731b7b93d",
-          "sha256": "6479c47835e58205bffc72340751b9ab767aeb854234f7359dd2be0f7a1f2869",
-          "sha1": "688c0e3aa05b58e242ae2fd787e4d79134679f3b",
-          "md5": "4f977ec28934e5ffd73ee0f611cd5491"
+          "name": "api-https-sdk-1.0.3-sources.jar",
+          "url": "api-https-sdk-1.0.3-sources.jar",
+          "size": 34079,
+          "sha512": "ce379c686185d07b9b6b32901d4d84368388bf92b8a5f1d5bf40d00e92791cd3f38cd23032a04c7caa48b3508b30f057dfefb3bbaaadacec9dbcc44a3cd3b77b",
+          "sha256": "82cafd118d13dba1823ff5ce46f4c0a9396bf214d0cc9e845340c012776ced9d",
+          "sha1": "4613c0cd0ca0b88407b4636166cc7dd6db4583d7",
+          "md5": "2986ea7b9bcc60ca7aa34e216b616d78"
         }
       ]
     }
