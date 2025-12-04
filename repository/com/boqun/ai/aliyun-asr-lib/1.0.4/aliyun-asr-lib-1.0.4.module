@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.ai",
+    "module": "aliyun-asr-lib",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aliyun-asr-lib-1.0.4.aar",
+          "url": "aliyun-asr-lib-1.0.4.aar",
+          "size": 83101,
+          "sha512": "5b564f29322b1926598831058601688bd4a13eb5b62baf2d54b36def80faee67859b1b58ac8f124d9b60b0c6f89733d345fd80be7b151505d99b67e434a2b3ae",
+          "sha256": "4ff5028531aa4208d22193cb128b4db72b1e1702b62a375df3ab922b5d0b3831",
+          "sha1": "f3e8ac8e6ed5de1674a8e0b3bf000545c7db2ddc",
+          "md5": "5800f8d5b9192baa1ffa0b6b28f7c3f3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aliyun-asr-lib-1.0.4.aar",
+          "url": "aliyun-asr-lib-1.0.4.aar",
+          "size": 83101,
+          "sha512": "5b564f29322b1926598831058601688bd4a13eb5b62baf2d54b36def80faee67859b1b58ac8f124d9b60b0c6f89733d345fd80be7b151505d99b67e434a2b3ae",
+          "sha256": "4ff5028531aa4208d22193cb128b4db72b1e1702b62a375df3ab922b5d0b3831",
+          "sha1": "f3e8ac8e6ed5de1674a8e0b3bf000545c7db2ddc",
+          "md5": "5800f8d5b9192baa1ffa0b6b28f7c3f3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "aliyun-asr-lib-1.0.4-sources.jar",
+          "url": "aliyun-asr-lib-1.0.4-sources.jar",
+          "size": 53671,
+          "sha512": "f2a50c06b09436b83742430122b2252c12c7dfcfed9c92ad0424d446aabede0c82ee0f1da3be7c183366dca2b08dd9609a0fa56f46bc76c54419bdc0f568d410",
+          "sha256": "42ff29cd22cc61932bb03cde4344430c6c3f313ac3d30098b3b2e6e00fe48047",
+          "sha1": "7d3d96c3d314567f69e38421fc4c48a808e5118d",
+          "md5": "106e7732d1ca6a93df0e59275e875c24"
+        }
+      ]
+    }
+  ]
+}
