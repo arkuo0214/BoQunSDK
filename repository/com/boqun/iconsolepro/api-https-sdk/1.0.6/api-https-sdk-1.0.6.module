@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun.iconsolepro",
+    "module": "api-https-sdk",
+    "version": "1.0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-https-sdk-1.0.6.aar",
+          "url": "api-https-sdk-1.0.6.aar",
+          "size": 179155,
+          "sha512": "36cf4dcb8fd2f5dc54757e19c0bf82ed6596b02b63c0c2a29dda31babd7ef1037fbea5d48126c16619e0d387b5a16f149b32fd96a9c62a0c00e9f0c36cf6c74d",
+          "sha256": "8e8a8512644302d1bd8c33988f9270c4bb1d939bca02eb3945a1ef6c2a47a4eb",
+          "sha1": "9450beacf9dd2817cd19410fb2b21e466458266b",
+          "md5": "5fa9ccf7f5102a920023207576919e1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "androidx.datastore",
+          "module": "datastore-preferences",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-https-sdk-1.0.6.aar",
+          "url": "api-https-sdk-1.0.6.aar",
+          "size": 179155,
+          "sha512": "36cf4dcb8fd2f5dc54757e19c0bf82ed6596b02b63c0c2a29dda31babd7ef1037fbea5d48126c16619e0d387b5a16f149b32fd96a9c62a0c00e9f0c36cf6c74d",
+          "sha256": "8e8a8512644302d1bd8c33988f9270c4bb1d939bca02eb3945a1ef6c2a47a4eb",
+          "sha1": "9450beacf9dd2817cd19410fb2b21e466458266b",
+          "md5": "5fa9ccf7f5102a920023207576919e1d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "api-https-sdk-1.0.6-sources.jar",
+          "url": "api-https-sdk-1.0.6-sources.jar",
+          "size": 36938,
+          "sha512": "6ddddecbc3a51c4f6b90af5d1286c47c4ce11aa9f781fab2f27300c5b69c7678cba4806a8b30d1b11a3ad16644c803a521836a73ec3308030eed28975d1e3624",
+          "sha256": "900769223eb697a1f34eb29121afda3c661c6b56600349fdc76034d83167b4ea",
+          "sha1": "fa3d521a11fe1f443bb8c4bc8d09a1aab1504db8",
+          "md5": "5faa37c3ddb488d1e1b3c6157aa1e725"
+        }
+      ]
+    }
+  ]
+}
