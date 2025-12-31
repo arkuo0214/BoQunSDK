@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "iconsole.sdk",
+    "version": "2.2.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.sdk-2.2.12.aar",
+          "url": "iconsole.sdk-2.2.12.aar",
+          "size": 216871,
+          "sha512": "8c7e2552db20432bf70f2720e435f2227ab042fabaf5813932c1557e109ae4090a7edbf4a3e412fe72d814c6e2a97d28824819d54fc63379c06ab6e20d16ec42",
+          "sha256": "b0cac15c636339d3ffbd079b493269814defe4f4a25af72cf7018123c26c3e60",
+          "sha1": "653407e9096b3afb09f3e91bb58d533265d739fa",
+          "md5": "1efb84a6489f465cfef338d94b1154c4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.sdk-2.2.12.aar",
+          "url": "iconsole.sdk-2.2.12.aar",
+          "size": 216871,
+          "sha512": "8c7e2552db20432bf70f2720e435f2227ab042fabaf5813932c1557e109ae4090a7edbf4a3e412fe72d814c6e2a97d28824819d54fc63379c06ab6e20d16ec42",
+          "sha256": "b0cac15c636339d3ffbd079b493269814defe4f4a25af72cf7018123c26c3e60",
+          "sha1": "653407e9096b3afb09f3e91bb58d533265d739fa",
+          "md5": "1efb84a6489f465cfef338d94b1154c4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.sdk-2.2.12-sources.jar",
+          "url": "iconsole.sdk-2.2.12-sources.jar",
+          "size": 145488,
+          "sha512": "b89da3901b959513194dd8d643732fad661c7df371c0b2f4979af77a18d55482392856f706804f0b8b7460f9cd252edc14b3e34e3cf5f001a2182abd011e29d2",
+          "sha256": "6faf0de20d742a49c216c97cda1396daa1b9a56fe27f5de29deca642db754b8c",
+          "sha1": "05ef7ad8e942ed5b81c7bf6944f3a2a253439318",
+          "md5": "d2f7af93875b0d1c5549cf0cfef656c0"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.sdk-2.2.12-javadoc.jar",
+          "url": "iconsole.sdk-2.2.12-javadoc.jar",
+          "size": 996761,
+          "sha512": "52df2433b6702122295b6f9734107f8a2a55bfcf93af1e3bf6fd709240027bbd4ca8797b3be146b912df12229363550c4d38995dbeea4e79f750c835d1b10284",
+          "sha256": "83c2a4e21f0961ab26182916078306e646ddf7bee1b234dd20ea252135c9aa29",
+          "sha1": "d480772da2126c4cffd174cda5f9538b8aa3bd1d",
+          "md5": "66d8f15904803b89328706a5b26f0d01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "iconsole.aomei.sdk",
+    "version": "2.2.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.aomei.sdk-2.2.13.aar",
+          "url": "iconsole.aomei.sdk-2.2.13.aar",
+          "size": 219288,
+          "sha512": "b14f2d7cf580ff6f6a66861462275e26184c42172102d981dc7ab6bca1c776eceb21255445edd2057d0f7b97f841848043948cbfcc395bf9165d6aac28366fcd",
+          "sha256": "35f98cec5d13523ff83510ea1c23f0d2157e9ad6e56807a3dde96461d4764374",
+          "sha1": "377da1b2c377e36b7202fc94c1077ef9f6025d23",
+          "md5": "690864dd4e3a5032270ef18a939b98d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.aomei.sdk-2.2.13.aar",
+          "url": "iconsole.aomei.sdk-2.2.13.aar",
+          "size": 219288,
+          "sha512": "b14f2d7cf580ff6f6a66861462275e26184c42172102d981dc7ab6bca1c776eceb21255445edd2057d0f7b97f841848043948cbfcc395bf9165d6aac28366fcd",
+          "sha256": "35f98cec5d13523ff83510ea1c23f0d2157e9ad6e56807a3dde96461d4764374",
+          "sha1": "377da1b2c377e36b7202fc94c1077ef9f6025d23",
+          "md5": "690864dd4e3a5032270ef18a939b98d5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.aomei.sdk-2.2.13-sources.jar",
+          "url": "iconsole.aomei.sdk-2.2.13-sources.jar",
+          "size": 147595,
+          "sha512": "6c280b653d67521170dd98b2471d5f32199b6295da6649814b7ffbe1355c4c11bc34a145587174882272719b554f8635a709e49fe50add07ae70c138ffac7347",
+          "sha256": "e21d928110b2617092fd6bc09e551eaacd227f1dc6a2dc031e34c431abd55c0f",
+          "sha1": "cec11033218b2a61e9b3efa1f65846970e87671f",
+          "md5": "e4d950372e01a4772c63969049e3652d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.aomei.sdk-2.2.13-javadoc.jar",
+          "url": "iconsole.aomei.sdk-2.2.13-javadoc.jar",
+          "size": 1006444,
+          "sha512": "8bf02aabab3f6334a112465bf9316f625b8e4dbaa52f1448a1b0a29d598bcc34c73d942523b6e1b52efde5eeea55dceb9527d8c6fe044cf2030594f057399560",
+          "sha256": "477562f3b15e10c4d5048be5b7af5c0a6f0dfb7536b4807e4ecb049535a323f4",
+          "sha1": "54053d9bcdc3ac86c6488cfc3fa54a350cd9da56",
+          "md5": "e1dcbc544e9aa2bfc8031aab3dee997c"
+        }
+      ]
+    }
+  ]
+}
