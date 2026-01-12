@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "iconsole.jugao.sdk",
+    "version": "2.2.14",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.jugao.sdk-2.2.14.aar",
+          "url": "iconsole.jugao.sdk-2.2.14.aar",
+          "size": 217761,
+          "sha512": "90b28ed40c6f7e24dac1301c9e80225ce2d7f2e6f3098c2e02c460ecc72719226732c09c7b4de1de0d5dab726e5da42c3b14400999814d726f7be8d7171290fa",
+          "sha256": "aa7124e61df3640d8554624c6123024afa15a0c12a155332d3f238c2b0f22442",
+          "sha1": "99e8a7673a94890a6600a4264b7a5fcb789bd017",
+          "md5": "1d2e2f67532a6fe4d9dad114371a7acf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "fly",
+          "module": "serialport",
+          "version": {
+            "requires": "1.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "iconsole.jugao.sdk-2.2.14.aar",
+          "url": "iconsole.jugao.sdk-2.2.14.aar",
+          "size": 217761,
+          "sha512": "90b28ed40c6f7e24dac1301c9e80225ce2d7f2e6f3098c2e02c460ecc72719226732c09c7b4de1de0d5dab726e5da42c3b14400999814d726f7be8d7171290fa",
+          "sha256": "aa7124e61df3640d8554624c6123024afa15a0c12a155332d3f238c2b0f22442",
+          "sha1": "99e8a7673a94890a6600a4264b7a5fcb789bd017",
+          "md5": "1d2e2f67532a6fe4d9dad114371a7acf"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.jugao.sdk-2.2.14-sources.jar",
+          "url": "iconsole.jugao.sdk-2.2.14-sources.jar",
+          "size": 147115,
+          "sha512": "f63bb8e43b570f65f2915b68fca67e01bf02a706cbf7a86a9e20a5fca2d3595dc22f3fa04991ed3990ef8417f912cd81ff19755e77763434ff4e1ce797a2a990",
+          "sha256": "7029db5f17b98b5dfa057c9b1ee9319b992758c8822ae969419532809be415af",
+          "sha1": "96195c37c3666c9f422416599b0a2d0b9e216989",
+          "md5": "46add1ba4281580dc2cd21f099c42782"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "iconsole.jugao.sdk-2.2.14-javadoc.jar",
+          "url": "iconsole.jugao.sdk-2.2.14-javadoc.jar",
+          "size": 1003312,
+          "sha512": "e03e2ca175f0e321f86e204336b39a36602f5c3f8dad90eb68bfebe9c7de36d7dc9178f7f8793634789bf4038d54a117edfaaaed54abdff4cb774b1927777c45",
+          "sha256": "622c57e44b936a67fbe58e8a0bbe146f08fb678b4b989c51712eacb9b9ca0b7b",
+          "sha1": "85460f5859224ca1e3fc0ac299be364a2957dcc3",
+          "md5": "2a2b5dd1ab58337c50e0a37a0f6a0202"
+        }
+      ]
+    }
+  ]
+}
