@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.boqun",
+    "module": "screensender",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "screensender-2.0.0.aar",
+          "url": "screensender-2.0.0.aar",
+          "size": 360291,
+          "sha512": "f67a991d66ef3e54bc3c53c5ed0d99968c93c7ffa55ae8c3057481380083c09f18a20ea6d5e82f2eb2a39c15fdaf0f4aa24ce10f7a980f1b61a18c14a6d65523",
+          "sha256": "d1d2f88a5eeccb38051c5ec759e234bdaba0430c4bc0e3752bff49272ef5b7d1",
+          "sha1": "1ae33785758738a3a4e830ec47c194909d3402ab",
+          "md5": "ec09888e8b7bf68f990c44bb877ea0b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.localbroadcastmanager",
+          "module": "localbroadcastmanager",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "pub.devrel",
+          "module": "easypermissions",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.github.jenly1314",
+          "module": "zxing-lite",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "io.github.scwang90",
+          "module": "refresh-layout-kernel",
+          "version": {
+            "requires": "3.0.0-alpha"
+          }
+        },
+        {
+          "group": "io.github.scwang90",
+          "module": "refresh-header-classics",
+          "version": {
+            "requires": "3.0.0-alpha"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "screensender-2.0.0.aar",
+          "url": "screensender-2.0.0.aar",
+          "size": 360291,
+          "sha512": "f67a991d66ef3e54bc3c53c5ed0d99968c93c7ffa55ae8c3057481380083c09f18a20ea6d5e82f2eb2a39c15fdaf0f4aa24ce10f7a980f1b61a18c14a6d65523",
+          "sha256": "d1d2f88a5eeccb38051c5ec759e234bdaba0430c4bc0e3752bff49272ef5b7d1",
+          "sha1": "1ae33785758738a3a4e830ec47c194909d3402ab",
+          "md5": "ec09888e8b7bf68f990c44bb877ea0b3"
+        }
+      ]
+    }
+  ]
+}
