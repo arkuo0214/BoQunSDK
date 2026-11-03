@@ -17,7 +17,7 @@
 
 
     dependencies {
-    	implementation 'com.boqun:screensender:2.0.0'
+    	implementation 'com.boqun:screensender:2.0.1'
     }
     
 如果出现 unable to resolve dependency for app@...... 看能不能访问https://raw.githubusercontent.com 不能就在C:\Windows\System32\drivers\etc路径下找到hosts文件  
@@ -26,7 +26,6 @@
   
   
 # 使用說明:  
-## **(使用詳情請參考BQScreenSenderDemo.zip https://github.com/arkuo0214/BoQunSDK/raw/master/repository/com/boqun/screensender/BQScreenSenderDemo.zip**
 ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo1.png)          ![image](https://github.com/arkuo0214/BoQunSDK/blob/master/repository/com/boqun/screensender/images/Demo2.png)
 
 
